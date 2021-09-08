@@ -1,0 +1,46 @@
+.sidebar-container {
+  position: absolute;
+  width: 18%;
+  height: 100%;
+  padding: 8px 16px;
+  background-color: beige;
+}
+
+.stretch {
+  animation: ease-out forwards;
+  animation-name: side_bar;
+  animation-duration: 4s;
+  animation-delay: 0s;
+}
+
+@keyframes side_bar {
+  0% {
+    width: 18%;
+    background-color: orange;
+  }
+
+  20% {
+    width: 60%;
+    background-color: rgb(137, 95, 16);
+  }
+
+  40% {
+    width: 80%;
+    background-color: rgb(68, 51, 19);
+  }
+
+  60% {
+    width: 30%;
+    background-color: rgb(203, 156, 69);
+  }
+
+  80% {
+    width: 60%;
+    background-color: rgb(125, 101, 57);
+  }
+
+  100% {
+    width: 18%;
+    background-color: rgb(224, 191, 131);
+  }
+}
